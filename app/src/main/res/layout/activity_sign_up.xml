@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SignUp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reg Page "
+        android:gravity="center"
+        android:layout_marginLeft="130dp"
+        android:textSize="25sp"
+        android:textColor="#000"
+        />
+
+<EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/Email_singUp"
+    android:inputType="textEmailAddress"
+    android:hint="Enter The MailAdress"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Password_singUp"
+        android:layout_marginTop="10dp"
+        android:hint="Enter The Password"
+        android:inputType="textPassword"/>
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:text="Sign up "
+        android:layout_marginLeft="100dp"
+        android:id="@+id/sigup_btn"/>
+
+
+
+
+</LinearLayout>
