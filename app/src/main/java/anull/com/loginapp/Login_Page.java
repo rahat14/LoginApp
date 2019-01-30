@@ -26,7 +26,7 @@ public class Login_Page extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login__page);
-       // mAuth = FirebaseAuth.getInstance();
+     //  mAuth = FirebaseAuth.getInstance();
         mAuth = FirebaseAuth.getInstance();
 
         email = (EditText)findViewById(R.id.email_signin);
